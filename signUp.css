@@ -1,0 +1,95 @@
+html{
+    margin-top: 5%;
+    margin-bottom: 20px;
+    background-image: url(pic2.png);
+}
+h1{
+    text-align: center;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: green;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 100%;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 33%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+.submit-btn{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    border: 0px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+input{
+   
+    padding: 8px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    
+
+}
+label{
+    
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px;
+    
+}
+@media  (max-width:600px){
+    form{
+        width:80%;
+        border: none;
+        background-color: whitesmoke;
+        padding-bottom: 20px;
+        border-radius: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 7%;
+
+
+    }
+    label{
+        padding-left: 10px;
+    }
+    input{
+       
+        border-radius: 20px;
+       border: 2px solid lightseagreen;
+    }
+    button{
+        border-radius: 20px;
+        border: none;
+    }
+    
+
+
+}
